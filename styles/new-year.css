@@ -176,6 +176,12 @@ main section{
 .best-offer-container .best-offer-col{
     flex-basis: 30%;
 }
+.munna{
+    width: 320px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
 /* holiday sale related style  */
 
