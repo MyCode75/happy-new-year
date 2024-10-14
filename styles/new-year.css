@@ -96,3 +96,44 @@ main section{
     background-image: url("../resources/Vectorrr.png");
     position: relative;
 }
+
+.welcome-info{
+    color: #fff;
+    position: absolute;
+    max-width: 620px;
+    width: 620px;
+    top: 25%;
+    left: 10%;
+    z-index: 1;
+}
+
+.welcome-info > h1{
+    font-size: 64px;
+    margin: 0 0 30px 0;
+    letter-spacing: 11%;
+    line-height: 88px;
+}
+
+.welcome-info > p{
+    font-size: 18px;
+    margin: 0 0 45px 0;
+    line-height: 30px;
+}
+
+.welcome-info > a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 50px;
+    transition: 0.5s all;
+    
+}
+
+.welcome-info > a:hover, .welcome-info > a:visited:hover{
+    color: #FF0000;
+}
+
+.welcome-info > a:visited{
+    color: #fff;
+}
