@@ -272,3 +272,39 @@ main section{
     background: #FF0000;
     cursor: pointer;
 }
+
+
+/* footer related style  */
+footer{
+    background-color: #070211;
+    padding: 100px 280px;
+    color: #fff;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.information > h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.socila-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.socila-links > a{
+    transition: 0.5s cubic-bezier(0.87, -0.05, 0.21, 0.93);
+}
+.socila-links > a:hover{
+    transform: scale(1.2);
+}
+
+.line{
+    margin: 60px 0;
+}
