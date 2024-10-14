@@ -61,7 +61,7 @@ body {
 main{
     max-width: 1320px;
     width: 1320px;
-    margin: 0 auto;
+    margin: 0 auto 100px auto;
 }
 
 main section{
@@ -235,4 +235,40 @@ main section{
 }
 .portfolio-description{
     margin-bottom: 40px;
+}
+
+
+/* newlatter related css */
+.newslatter-container{
+    background-color: rgb(255, 0, 0, 0.1);
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.newslatter-info{
+    max-width: 720px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.form{
+    display: flex;
+    width: 40%;
+}
+.form > input[type="email"]{
+    border: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+    font-size: 18px;
+}
+.form > input[type="submit"]{
+    border: 0;
+    padding: 15px 45px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    background: #FF0000;
+    cursor: pointer;
 }
