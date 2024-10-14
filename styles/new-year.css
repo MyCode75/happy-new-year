@@ -8,6 +8,27 @@ body {
     color: #FF0000;
   }
 
+  .content-header{
+    font-size: 48px;
+    color: #070211;
+  }
+
+  .content-text{
+    color: #070211;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .image-overly{
+    background-color: #070211;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    border-radius: 15px;
+    position: absolute;
+}
+
+/* header related style  */
+
 .header{
    width: 1320px;
    height: 600px;
@@ -35,10 +56,43 @@ body {
     line-height: 95px;
 }
 
-.header .header-image-overly{
-    background-color: #070211;
+
+/* main section style  */
+main{
+    max-width: 1320px;
+    width: 1320px;
+    margin: 0 auto;
+}
+
+main section{
+    margin: 120px 0;
+}
+
+
+/* discount related style  */
+
+.discount-container{
+    text-align: center;
+}
+
+.discount-title{
+    font-size: 88px;
+    font-weight: bold;
+    margin: 0 0 40px 0;
+}
+.discount-sub{
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+.discount-container > h3{
+    margin: 0;
+    margin: 0 0 80px 0;
+}
+
+/* Welcome to mindset party related css  */
+.welcome-mindset-container{
     width: 100%;
-    height: 100%;
-    opacity: 0.5;
-    position: absolute;
+    height: 600px;
+    background-image: url("../resources/Vectorrr.png");
+    position: relative;
 }
