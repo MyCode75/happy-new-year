@@ -14,7 +14,7 @@ body {
   }
 
   .content-text{
-    color: #070211;
+    color: #070211cb;
     font-size: 20px;
     line-height: 32px;
   }
@@ -153,4 +153,26 @@ main section{
     font-weight: 600;
     color: #070211;
     margin: 15px;
+}
+
+/* best offer related style  */
+.best-offer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best-offer-gretting{
+    font-size: 26px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+}
+
+.best-offer-title{
+    margin: 0;
+    font-size: 48px;
+}
+
+.best-offer-container .best-offer-col{
+    flex-basis: 30%;
 }
